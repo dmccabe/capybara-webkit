@@ -99,3 +99,4 @@ void NetworkCookieJar::overwriteCookies(const QList<QNetworkCookie>& cookieList)
   }
   setAllCookies(newCookies);
 }
+

@@ -282,6 +282,10 @@ module Capybara::Webkit
       @browser.set_cookie(cookie)
     end
 
+    def delete_cookie(cookie)
+      @browser.delete_cookie(cookie)
+    end
+
     def clear_cookies
       @browser.clear_cookies
     end
