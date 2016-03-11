@@ -248,6 +248,10 @@ https://github.com/thoughtbot/capybara-webkit/wiki/Reporting-Crashes
       command "SetCookie", cookie
     end
 
+    def delete_cookie(cookie)
+      command "DeleteCookie", cookie
+    end
+
     def clear_cookies
       command "ClearCookies"
     end
