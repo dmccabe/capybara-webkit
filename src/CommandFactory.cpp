@@ -13,6 +13,7 @@
 #include "Status.h"
 #include "Headers.h"
 #include "SetCookie.h"
+#include "DeleteCookie.h"
 #include "ClearCookies.h"
 #include "GetCookies.h"
 #include "SetProxy.h"

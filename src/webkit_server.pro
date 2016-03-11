@@ -55,6 +55,7 @@ HEADERS = \
   Headers.h \
   UnsupportedContentHandler.h \
   SetCookie.h \
+  DeleteCookie.h \
   ClearCookies.h \
   GetCookies.h \
   CommandParser.h \
@@ -139,6 +140,7 @@ SOURCES = \
   Headers.cpp \
   UnsupportedContentHandler.cpp \
   SetCookie.cpp \
+  DeleteCookie.cpp \
   ClearCookies.cpp \
   GetCookies.cpp \
   CommandParser.cpp \
